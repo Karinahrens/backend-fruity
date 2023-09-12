@@ -5,7 +5,7 @@ const cors = require('cors')
 //create server by calling express
 const app = express()
 //above 1024
-const port = 3000
+const port = process.env.PORT
 
 const fruits = require('./fruits.json')
 // // cresting route - GET route
